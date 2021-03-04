@@ -1,14 +1,17 @@
 <template>
   <div>
+    <h1>nullworkbench</h1>
     <GlobalHeader />
     <Nuxt />
   </div>
 </template>
 
 <style>
+/* Global */
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: YuGothic, 'Yu Gothic', 'ヒラギノ角ゴシック', 'Hiragino Sans',
+    'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -24,5 +27,9 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  opacity: 0;
 }
 </style>
